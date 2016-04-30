@@ -1,0 +1,8 @@
+CREATE TABLE  `insert_dados`.`tb_dados_conteudo` (
+`cod_numero` INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`titulo_conteudo` VARCHAR( 50 ) NOT NULL ,
+`sub_titulo` VARCHAR( 50 ) NOT NULL ,
+`data_hora` DATETIME NOT NULL ,
+`Conteudo` VARCHAR( 500 ) NOT NULL ,
+`autor_nome` VARCHAR( 50 ) NOT NULL
+) ENGINE = INNODB CHARACTER SET utf8 COLLATE utf8_polish_ci;
